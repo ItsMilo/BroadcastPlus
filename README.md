@@ -18,6 +18,3 @@ turns into:
 
 **Color & Formatting**
 ![](http://hydra-media.cursecdn.com/minecraft.gamepedia.com/7/7e/Minecraft_Formatting.gif)
-
-Source Code:
-[i][url]https://github.com/AlexKvazos/BroadcastPlus[/url][/i]
