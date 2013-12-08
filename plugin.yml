@@ -1,0 +1,15 @@
+name: BroadcastPlus
+main: com.alexkvazos.broadcastplus.BroadcastPlus
+version: 1.0
+
+commands:
+    bcplus:
+      description: Sends a broadcast to the server
+      usage: /bcplus [prefix] [message to send]
+      permission: broadcastplus.use
+      permission-message: No permissions
+
+permissions:
+    broadcastplus.use:
+      description: Allows the holder to send broadcasts
+      default: op
