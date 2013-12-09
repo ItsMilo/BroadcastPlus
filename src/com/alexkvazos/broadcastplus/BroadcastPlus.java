@@ -33,6 +33,5 @@ public final class BroadcastPlus extends JavaPlugin{
 			}
 		return false;
 		}
-		//bcplus prefix rest of the message this is the broadcast
 }
 
