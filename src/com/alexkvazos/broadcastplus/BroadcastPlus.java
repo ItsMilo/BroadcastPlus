@@ -12,6 +12,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public final class BroadcastPlus extends JavaPlugin{
 
 	//Actions to perform when enabled/disabled
+	//Added commit
 	public void onEnable(){}
 	public void onDisable(){}
 	
@@ -27,7 +28,7 @@ public final class BroadcastPlus extends JavaPlugin{
 					for(int x = 1; x < arguments.size(); x++){
 					text += " " + arguments.get(x);
 					}
-					text=text.replaceAll("&([a-z0-9])","§$1");
+					text=text.replaceAll("&([a-z0-9])","ï¿½$1");
 					Bukkit.broadcastMessage(ChatColor.GOLD+"["+ChatColor.GREEN+args[0]+ChatColor.GOLD+"] "+text);
 				return true;
 			}
