@@ -22,12 +22,12 @@ public final class BroadcastPlus extends JavaPlugin{
 			if (cmd.getName().equalsIgnoreCase("bcplus") && sender.hasPermission("broadcastplus.use") && args.length >=2) {
 					ArrayList<String> arguments = new ArrayList<String>(Arrays.asList(args));
 					
-					//Array Builder
+					//Array Builder to get args
 					String text = "";
 					for(int x = 1; x < arguments.size(); x++){
 					text += " " + arguments.get(x);
 					}
-					text=text.replaceAll("&([a-z0-9])","§$1");
+					text=text.replaceAll("&([a-z0-9])","ï¿½$1");
 					Bukkit.broadcastMessage(ChatColor.GOLD+"["+ChatColor.GREEN+args[0]+ChatColor.GOLD+"] "+text);
 				return true;
 			}
